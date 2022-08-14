@@ -76,12 +76,16 @@ const Sidebar = () => {
             <span>Profile</span>
           </li>
           <li>
-            <LogoutIcon />
+            <LogoutIcon className="icon" />
             <span>Log Out</span>
           </li>
         </ul>
       </div>
-      <div className="bottom">Color options</div>
+
+      <div className="bottom">
+        <div className="colorOptions"></div>
+        <div className="colorOptions"></div>
+      </div>
     </div>
   );
 };
