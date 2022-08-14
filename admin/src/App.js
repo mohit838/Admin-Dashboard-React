@@ -5,6 +5,7 @@ import Login from "./Pages/Login/Login";
 import List from "./Pages/List/List";
 import Single from "./Pages/Single/Single";
 import NewPage from "./Pages/NewPage/NewPage";
+import NotFound from "./Pages/NotFound/NotFound";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path=":userId" element={<Single />} />
               <Route path="new" element={<NewPage />} />
             </Route>
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
