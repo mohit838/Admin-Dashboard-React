@@ -15,11 +15,21 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
             <Route path="login" element={<Login />} />
+
+            {/* Users page */}
             <Route path="users">
               <Route index element={<List />} />
               <Route path=":userId" element={<Single />} />
               <Route path="new" element={<NewPage />} />
             </Route>
+
+            {/* Products page */}
+            <Route path="products">
+              <Route index element={<List />} />
+              <Route path=":productId" element={<Single />} />
+              <Route path="new" element={<NewPage />} />
+            </Route>
+
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
