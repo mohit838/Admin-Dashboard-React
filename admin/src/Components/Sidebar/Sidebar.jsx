@@ -22,48 +22,57 @@ const Sidebar = () => {
       <hr />
       <div className="center">
         <ul>
+          <p className="title">MAIN</p>
           <li>
-            <DashboardIcon />
+            <DashboardIcon className="icon" />
             <span>Dashboard</span>
           </li>
+
+          <p className="title">LIST</p>
           <li>
-            <PersonOutlineIcon />
+            <PersonOutlineIcon className="icon" />
             <span>Users</span>
           </li>
           <li>
-            <Inventory2Icon />
+            <Inventory2Icon className="icon" />
             <span>Products</span>
           </li>
           <li>
-            <ShoppingCartIcon />
+            <ShoppingCartIcon className="icon" />
             <span>Orders</span>
           </li>
           <li>
-            <LocalShippingIcon />
+            <LocalShippingIcon className="icon" />
             <span>Delivery</span>
           </li>
+
+          <p className="title">USEFUL</p>
           <li>
-            <BarChartIcon />
+            <BarChartIcon className="icon" />
             <span>Stats</span>
           </li>
           <li>
-            <NotificationsActiveIcon />
+            <NotificationsActiveIcon className="icon" />
             <span>Notifications</span>
           </li>
+
+          <p className="title">SERVICE</p>
           <li>
-            <MonitorHeartIcon />
+            <MonitorHeartIcon className="icon" />
             <span>System Health</span>
           </li>
           <li>
-            <TocIcon />
+            <TocIcon className="icon" />
             <span>Logs</span>
           </li>
           <li>
-            <SettingsIcon />
+            <SettingsIcon className="icon" />
             <span>Settings</span>
           </li>
+
+          <p className="title">USER</p>
           <li>
-            <AccountCircleIcon />
+            <AccountCircleIcon className="icon" />
             <span>Profile</span>
           </li>
           <li>
