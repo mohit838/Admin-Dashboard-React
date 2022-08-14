@@ -2,7 +2,7 @@ import React from "react";
 import "./single.scss";
 
 const Single = () => {
-  return <div></div>;
+  return <div>SinglePage</div>;
 };
 
 export default Single;

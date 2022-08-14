@@ -2,7 +2,7 @@ import React from "react";
 import "./newPage.scss";
 
 const NewPage = () => {
-  return <div></div>;
+  return <div>NewPage</div>;
 };
 
 export default NewPage;
