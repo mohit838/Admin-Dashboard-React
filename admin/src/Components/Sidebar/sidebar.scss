@@ -1,0 +1,38 @@
+.sidebar {
+  //   background-color: lightcoral;
+  flex: 1;
+  border-right: 0.2px solid #dddada;
+  min-height: 100vh;
+
+  //   For Color Switch
+  background-color: #fff;
+
+  .top {
+    // background-color: lightcoral;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      //   color: #c0392b; // Pomegranate
+      color: #27ae60; // NEPHRITIS
+    }
+  }
+  hr {
+    height: 0;
+    border: 0.2px solid #dddada;
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
